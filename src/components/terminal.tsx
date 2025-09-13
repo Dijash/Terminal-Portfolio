@@ -111,7 +111,7 @@ export default function App() {
   const [bootLog, setBootLog] = useState<string[]>([]);
   const [history, setHistory] = useState<{ cmd: string; output: string }[]>([]);
   const [input, setInput] = useState<string>("");
-  const [currentPath] = useState<string>("~");
+  const [currentPath] = useState<string>("~$");
   const inputRef = useRef<HTMLInputElement>(null);
   const terminalRef = useRef<HTMLDivElement>(null);
 
