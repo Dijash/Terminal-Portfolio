@@ -17,52 +17,46 @@ const commands = {
   projects - See my awesome projects
   contact  - Get in touch
   education- Academic background
-  resume   - Download my resume
   whoami   - Current user info
   date     - Show current date
   neofetch - System information
   clear    - Clear terminal history
   exit     - Close terminal`,
 
-  about: `Hi there! 👋 I'm Dijash
-  
-A passionate full-stack developer who loves turning coffee into code.
-I specialize in building scalable web applications and enjoy tackling
-complex problems with elegant solutions.
+  about: `👋 Hi there, I’m Dijash
 
-When I'm not coding, you'll find me exploring new technologies,
-contributing to open source, or mentoring fellow developers.`,
+I’m a full-stack developer who turns coffee ☕ into clean, efficient code. My passion lies in building scalable, user-friendly web applications that don’t just work — they delight.
+
+💡 I love solving complex problems with elegant, maintainable solutions, whether it’s designing seamless APIs, crafting pixel-perfect frontends, or optimizing databases for performance.
+
+🚀 What drives me:
+
+Exploring cutting-edge technologies and pushing them into real-world use cases
+
+Building projects that bridge the gap between creativity and engineering
+
+Contributing to open source and collaborating with developers worldwide
+
+Sharing knowledge, mentoring peers, and growing alongside the community
+
+⚡ Outside of coding:
+You’ll usually find me experimenting with new frameworks, reading about tech trends, or brainstorming the next project idea. I also enjoy teaching and helping fellow developers break through learning roadblocks.`,
 
   skills: `Technical Arsenal:
   
-Frontend:  JavaScript/TypeScript, React, Vue.js, Next.js
-Backend:   Node.js, Python, Express, FastAPI
-Database:  PostgreSQL, MongoDB, Redis
-Cloud:     AWS, Docker, Kubernetes
-Tools:     Git, VS Code, Linux, Figma
-Other:     GraphQL, REST APIs, CI/CD, Testing`,
+Frontend:  JavaScript/TypeScript, React, Next.js
+Tools:     Git, VS Code, Linux, Figma`,
 
   projects: `Featured Projects:
   
-🚀 E-Commerce Platform
-   → Full-stack React/Node.js app with payment integration
-   → GitHub: github.com/Dijash-dev/ecommerce
-   
-🎮 Real-time Chat App
-   → WebSocket-based chat with rooms and file sharing
-   → GitHub: github.com/Dijash-dev/chat-app
-   
-📊 Data Visualization Dashboard
-   → D3.js powered analytics dashboard
-   → GitHub: github.com/Dijash-dev/dashboard`,
+Working on updating... 🚧`,
 
   contact: `Let's Connect! 📬
   
-Email:    Dijash.dev@example.com
-GitHub:   github.com/Dijash-dev
-LinkedIn: linkedin.com/in/Dijash-dev
-Twitter:  @Dijash_codes
-Website:  Dijash.dev`,
+Email:    utsavbhattarai29@gmail.com
+GitHub:   github.com/Dijash
+LinkedIn: linkedin.com/in/aarav-bhattarai
+Website:  https://terminal-portfolio-l8p2.vercel.app/`,
 
   education: `Academic Background 🎓
   
