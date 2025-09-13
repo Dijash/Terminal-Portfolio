@@ -111,7 +111,7 @@ export default function App() {
   const [bootLog, setBootLog] = useState<string[]>([]);
   const [history, setHistory] = useState<{ cmd: string; output: string }[]>([]);
   const [input, setInput] = useState<string>("");
-  const [currentPath] = useState<string>("~$");
+  const [currentPath] = useState<string>(" ~");
   const inputRef = useRef<HTMLInputElement>(null);
   const terminalRef = useRef<HTMLDivElement>(null);
 
@@ -312,6 +312,7 @@ Type 'help' to see all available commands.`;
                     <span className="">💀</span>
                     <span className="text-purple-400">portfolio</span>
                     <span className="mx-2 text-yellow-400">~</span>
+                    <span className="mx-2 text-green-600">$</span>
                     <span className="text-green-400">{item.cmd}</span>
                   </div>
                 )}
@@ -330,7 +331,8 @@ Type 'help' to see all available commands.`;
               <span className="font-bold text-cyan-400">Dijash</span>
               <span className="">💀</span>
               <span className="text-purple-400">portfolio</span>
-              <span className="mx-2 text-yellow-400">~</span>
+              
+              <span className="mx-1 text-yellow-400">~ $</span>
               <input
                 ref={inputRef}
                 className="flex-1 text-green-400 bg-transparent focus:outline-none caret-green-400"
